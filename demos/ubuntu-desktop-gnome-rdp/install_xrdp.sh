@@ -25,6 +25,13 @@ sudo apt-get -y update
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
+#install java
+sudo apt install openjdk-8-jre-headless -y
+
+#install maven
+sudo apt install maven -y
+
+
 
 #install VSCode
 logger -t devvm "Installing VSCode: $?"
