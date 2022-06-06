@@ -21,6 +21,11 @@ apt-get update && sudo apt-get install -y azure-cli
 logger -t devvm "Azure-cli installed: $?"
 sudo apt-get -y update
 
+#install docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
+
 #install VSCode
 logger -t devvm "Installing VSCode: $?"
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
