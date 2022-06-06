@@ -17,9 +17,7 @@ sudo sed -i 's/allowed_users=console/allowed_users=anybody/' /etc/X11/Xwrapper.c
 sudo service xrdp restart
 
 #install Azure CLI
-apt-get update && sudo apt-get install -y azure-cli
-logger -t devvm "Azure-cli installed: $?"
-sudo apt-get -y update
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 #install docker
 curl -fsSL https://get.docker.com -o get-docker.sh
