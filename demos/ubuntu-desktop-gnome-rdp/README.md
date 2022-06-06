@@ -1,4 +1,4 @@
-# Deploy Ubuntu Desktop VM with VSCode, Azure CLI and RDP support
+# Deploy Ubuntu Desktop VM with VSCode, Azure CLI, Docker, Java, MVN and RDP support
 
 ![Azure Public Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/demos/ubuntu-desktop-gnome-rdp/PublicLastTestDate.svg)
 ![Azure Public Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/demos/ubuntu-desktop-gnome-rdp/PublicDeployment.svg)
